@@ -1,3 +1,12 @@
+Package: isismdl
+Version: 0.1
+Depends: regts, R6
+Imports: methods
+Suggests: testthat, knitr
+License: GPL-3
+MD5sum: a60c8aa41fcaa0d95bff9990c9a03e65
+NeedsCompilation: yes
+
 Package: regts
 Version: 0.1
 Depends: xlsx
