@@ -1,9 +1,0 @@
-Package: regts
-Version: 0.1
-Depends: xlsx
-Imports: Rcpp, Hmisc, data.table, readxl, cellranger,
-LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown
-License: GPL-3
-MD5sum: 8ade7ff8a1319498ca6b1f29f2cb929f
-NeedsCompilation: yes
