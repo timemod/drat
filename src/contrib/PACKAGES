@@ -8,11 +8,12 @@ MD5sum: a60c8aa41fcaa0d95bff9990c9a03e65
 NeedsCompilation: yes
 
 Package: regts
-Version: 0.1
+Version: 0.2
 Depends: xlsx
-Imports: Rcpp, Hmisc, data.table, readxl, cellranger,
+Imports: Rcpp, Hmisc, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
+        tempdisagg
 License: GPL-3
-MD5sum: 8ade7ff8a1319498ca6b1f29f2cb929f
+MD5sum: 2c747f9732de145039c5daf53cad23ba
 NeedsCompilation: yes
