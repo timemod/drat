@@ -1,19 +1,30 @@
+Package: cbsots
+Version: 0.5
+Depends: regts
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny,
+        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
+        utils,
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 9b98de67767f4774865e1333acb475e0
+NeedsCompilation: no
+
 Package: isismdl
-Version: 1.0
+Version: 1.1
 Depends: regts, R6, readr, tools
 Imports: methods
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: fc7053a977877f5d93a1a8c37848db83
+MD5sum: d9bd93c0cbf543f1f51852fa9be2c7e6
 NeedsCompilation: yes
 
 Package: regts
-Version: 0.2
+Version: 0.4
 Depends: xlsx
-Imports: Rcpp, Hmisc, data.table, readxl, cellranger, tibble
+Imports: Rcpp, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg
+        tempdisagg, Hmisc
 License: GPL-3
-MD5sum: 2c747f9732de145039c5daf53cad23ba
+MD5sum: 88da8e81cb3652dc3ef5a3492df349f5
 NeedsCompilation: yes
