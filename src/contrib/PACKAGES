@@ -1,12 +1,12 @@
 Package: cbsots
-Version: 0.5
+Version: 0.7.0
 Depends: regts
 Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny,
         shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        utils,
+        stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: 9b98de67767f4774865e1333acb475e0
+MD5sum: 9c8e97b17578ee2294e7a45a3fdd4799
 NeedsCompilation: no
 
 Package: isismdl
@@ -19,12 +19,12 @@ MD5sum: d9bd93c0cbf543f1f51852fa9be2c7e6
 NeedsCompilation: yes
 
 Package: regts
-Version: 0.4
+Version: 0.5.0
 Depends: xlsx
 Imports: Rcpp, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
         tempdisagg, Hmisc
 License: GPL-3
-MD5sum: 88da8e81cb3652dc3ef5a3492df349f5
+MD5sum: 0103764758e0988e7c107b1ef4d3487a
 NeedsCompilation: yes
