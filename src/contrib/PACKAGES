@@ -9,6 +9,17 @@ License: GPL-3
 MD5sum: 9c8e97b17578ee2294e7a45a3fdd4799
 NeedsCompilation: no
 
+Package: dynmdl
+Version: 0.3.0
+Depends: regts, methods
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
+        stringi, umfpackr, numDeriv, readr
+LinkingTo: Rcpp, BH, Rcereal
+Suggests: testthat, knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: 8222ddba22d39094858745b21858008f
+NeedsCompilation: yes
+
 Package: isismdl
 Version: 1.1
 Depends: regts, R6, readr, tools
@@ -27,4 +38,14 @@ Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
         tempdisagg, Hmisc
 License: GPL-3
 MD5sum: 19f91b3d4edbdc6ef6221e9468fb3a6b
+NeedsCompilation: yes
+
+Package: umfpackr
+Version: 0.1.0
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3
+MD5sum: 90851bab4e9c4164aab01f681e0768ed
 NeedsCompilation: yes
