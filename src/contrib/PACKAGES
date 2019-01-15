@@ -21,23 +21,23 @@ MD5sum: 8222ddba22d39094858745b21858008f
 NeedsCompilation: yes
 
 Package: isismdl
-Version: 1.1
+Version: 1.2.0
 Depends: regts, R6, readr, tools
 Imports: methods
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: d9bd93c0cbf543f1f51852fa9be2c7e6
+MD5sum: f332c11a1652b7045129d79610167c2b
 NeedsCompilation: yes
 
 Package: regts
-Version: 0.5.1
-Depends: xlsx
-Imports: Rcpp, data.table, readxl, cellranger, tibble
+Version: 0.7.0
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
+        openxlsx
 LinkingTo: Rcpp
 Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg, Hmisc
+        tempdisagg, Hmisc, lubridate
 License: GPL-3
-MD5sum: 19f91b3d4edbdc6ef6221e9468fb3a6b
+MD5sum: e910f2bada13ee98ec421f85ca93605b
 NeedsCompilation: yes
 
 Package: umfpackr
