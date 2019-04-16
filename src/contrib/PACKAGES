@@ -1,32 +1,32 @@
 Package: cbsots
-Version: 1.0.0
+Version: 0.9.0
 Depends: regts
 Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
         shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
         stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: 4ad483a88e166ba57727890276490d2e
+MD5sum: aa9759b3f73ef3a3f8787d10d5bdc456
 NeedsCompilation: no
 
 Package: dynmdl
-Version: 0.7.0
+Version: 0.5.0
 Depends: regts, methods
 Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr, data.table
+        stringi, umfpackr, numDeriv, readr
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 9cd39b6e439f0feeaddc0da524d76d9c
+MD5sum: 32ecbf7cab4c8e88192bcaa5951faab2
 NeedsCompilation: yes
 
 Package: isismdl
-Version: 1.2.1
+Version: 1.2.0
 Depends: regts, R6, readr, tools
 Imports: methods
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: 8eda04adba6389ae1a92c05e87bcceb0
+MD5sum: f332c11a1652b7045129d79610167c2b
 NeedsCompilation: yes
 
 Package: regts
@@ -37,15 +37,15 @@ LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
         Hmisc, lubridate
 License: GPL-3
-MD5sum: eb207a5294d7546006a4273f33bd4912
+MD5sum: b962336b2aaba340971bc3a0f50d36a7
 NeedsCompilation: yes
 
 Package: umfpackr
-Version: 0.3.0
+Version: 0.2.1
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL-3
-MD5sum: 0d7b41c004d2e00fe7498cbd4af152f8
+MD5sum: 3784f2daa16979d68bed1ae60025eb41
 NeedsCompilation: yes
