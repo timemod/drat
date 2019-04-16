@@ -1,32 +1,32 @@
 Package: cbsots
-Version: 0.9.0
+Version: 1.0.0
 Depends: regts
 Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
         shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
         stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: aa9759b3f73ef3a3f8787d10d5bdc456
+MD5sum: a13b9498a7a7a17184dc3693af1750f5
 NeedsCompilation: no
 
 Package: dynmdl
-Version: 0.5.0
+Version: 0.7.0
 Depends: regts, methods
 Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr
+        stringi, umfpackr, numDeriv, readr, data.table
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
-MD5sum: 32ecbf7cab4c8e88192bcaa5951faab2
+MD5sum: fd7882680c4be63a808df28d1c17a385
 NeedsCompilation: yes
 
 Package: isismdl
-Version: 1.2.0
+Version: 1.2.1
 Depends: regts, R6, readr, tools
 Imports: methods
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: f332c11a1652b7045129d79610167c2b
+MD5sum: 895d7a836270247625babb0a691c19c4
 NeedsCompilation: yes
 
 Package: regts
@@ -41,11 +41,11 @@ MD5sum: b962336b2aaba340971bc3a0f50d36a7
 NeedsCompilation: yes
 
 Package: umfpackr
-Version: 0.2.1
+Version: 0.3.0
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL-3
-MD5sum: 3784f2daa16979d68bed1ae60025eb41
+MD5sum: 906b4955fc122f63c9677acc31798f5c
 NeedsCompilation: yes
