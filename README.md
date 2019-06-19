@@ -19,5 +19,5 @@ To install package `dynmdl` you should install both `umfpackr` and `dyndml`:
 drat::addRepo("timemod")
 install.packages("regts")
 install.packages("umfpackr")
-install.packages("dyndml")
+install.packages("dynmdl")
 ```
