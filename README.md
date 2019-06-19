@@ -12,6 +12,12 @@ After that you can install packages from our ```drat``` repo as follows (for exa
 ```
 drat::addRepo("timemod")
 install.packages("regts")
-install.packages("cbsots")
-install.packages("isismdl")
+```
+
+To install package `dynmdl` you should install both `umfpackr` and `dyndml`:
+```
+drat::addRepo("timemod")
+install.packages("regts")
+install.packages("umfpackr")
+install.packages("dyndml")
 ```
