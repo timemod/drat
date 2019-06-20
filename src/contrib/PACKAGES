@@ -10,14 +10,14 @@ MD5sum: 277896859894ce9132e2944850a0c20e
 NeedsCompilation: no
 
 Package: dynmdl
-Version: 0.8.0
+Version: 0.8.1
 Depends: R (>= 3.5.0), regts, methods
 Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
         stringi, umfpackr, numDeriv, data.table
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
-MD5sum: f516a92a0973316e44887e228bfb6d4f
+MD5sum: 121da482bd67cac5237e63d7e7aa5546
 NeedsCompilation: yes
 
 Package: isismdl
@@ -41,11 +41,11 @@ MD5sum: 84aadc9ad266ed1f5052e3c87d7dbb21
 NeedsCompilation: yes
 
 Package: umfpackr
-Version: 0.3.0
+Version: 0.4.0
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL-3
-MD5sum: 906b4955fc122f63c9677acc31798f5c
+MD5sum: 967f3426135d2452a953afab6a8f05d6
 NeedsCompilation: yes
