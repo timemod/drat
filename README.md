@@ -9,15 +9,16 @@ install.packages("drat")
 ```
 
 After that you can install packages from our ```drat``` repo as follows 
-(for example, for the `regts` package).
+(for example, for the `regts` package):
 ```
 drat::addRepo("timemod")
 install.packages("regts")
 ```
 
 And for the `dynmdl`:
+```
 drat::addRepo("timemod")
 install.packages("dynmdl")
 ```
 
-The last command also installs `regts` because `dyndml` depends on `regts`.
+The last command also installs `regts` because `dynmdl` depends on `regts`.
