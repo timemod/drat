@@ -1,0 +1,8 @@
+Package: umfpackr
+Version: 0.4.0
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3
+Archs: i386, x64
