@@ -1,0 +1,26 @@
+Package: dynmdl
+Version: 0.8.1
+Depends: regts, methods
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, data.table
+LinkingTo: Rcpp, BH, Rcereal
+Suggests: testthat, knitr, rmarkdown, caret
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: regts
+Version: 0.8.2
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr, testthat
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
+License: GPL-3
+Archs: i386, x64
+
+Package: umfpackr
+Version: 0.4.0
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-3
+Archs: i386, x64

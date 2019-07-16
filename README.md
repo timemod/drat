@@ -8,10 +8,17 @@ To install a package from our ```drat``` repository, first install Dirk Eddelbue
 install.packages("drat")
 ```
 
-After that you can install packages from our ```drat``` repo as follows (for example, for the `regts` package).
+After that you can install packages from our ```drat``` repo as follows 
+(for example, for the `regts` package):
 ```
 drat::addRepo("timemod")
 install.packages("regts")
-install.packages("cbsots")
-install.packages("isismdl")
 ```
+
+And for the `dynmdl`:
+```
+drat::addRepo("timemod")
+install.packages("dynmdl")
+```
+
+The last command also installs `regts` because `dynmdl` depends on `regts`.
