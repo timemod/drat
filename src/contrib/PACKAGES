@@ -1,12 +1,12 @@
 Package: cbsots
-Version: 1.2.0
+Version: 1.2.1
 Depends: R (>= 3.5.0), regts
 Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui
         (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist,
         utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: 694cc946d724e892d560212d10bc0861
+MD5sum: 8cfd2760076428f8564370eebf7b0409
 NeedsCompilation: no
 
 Package: dynmdl
