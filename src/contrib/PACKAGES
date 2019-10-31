@@ -10,14 +10,14 @@ MD5sum: 8cfd2760076428f8564370eebf7b0409
 NeedsCompilation: no
 
 Package: dynmdl
-Version: 0.9.1
+Version: 1.0.0
 Depends: R (>= 3.5.0), regts, methods
 Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, data.table, openxlsx
+        stringi, umfpackr, numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
-MD5sum: bfbd7b050c2fd9f2db4264b373e56ed8
+MD5sum: 579d426e32108dc66450bba5914aeda9
 NeedsCompilation: yes
 
 Package: isismdl
@@ -26,26 +26,26 @@ Depends: R (>= 3.5.0), regts
 Imports: methods, R6, readr, tools
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: 2b978396f8a9e884f1760ed9ab31b69a
+MD5sum: 5b2fe85dbf81329699356952c728319c
 NeedsCompilation: yes
 
 Package: regts
-Version: 0.8.3
+Version: 0.9.0
 Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
         openxlsx, stringr, testthat
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
         Hmisc, lubridate
 License: GPL-3
-MD5sum: c3fd6fe4e60aa5db0dea945f530d6c27
+MD5sum: 8c6c3c1db1eb956616df61c3aa35c658
 NeedsCompilation: yes
 
 Package: umfpackr
-Version: 0.4.1
+Version: 0.5.0
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
-Suggests: testthat
+Suggests: testthat, nleqslv
 License: GPL-3
-MD5sum: 134152f26ba38acda27da427a5b10656
+MD5sum: 8c36a0cd7a0fb618d23d92bcb41f678a
 NeedsCompilation: yes
