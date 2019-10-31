@@ -1,16 +1,16 @@
 Package: cbsots
 Version: 1.2.1
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui (>= 0.2.9001),
-         htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui (>= 0.2.9001), htmlwidgets,
+           jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 
 Package: dynmdl
-Version: 0.9.0
+Version: 1.0.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
-         numDeriv, data.table, openxlsx
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr, numDeriv,
+           openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -25,19 +25,18 @@ License: GPL-3
 Archs: i386, x64
 
 Package: regts
-Version: 0.8.3
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
-         testthat
+Version: 0.9.0
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr, testthat
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 Archs: i386, x64
 
 Package: umfpackr
-Version: 0.4.1
+Version: 0.5.0
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
-Suggests: testthat
+Suggests: testthat, nleqslv
 License: GPL-3
 Archs: i386, x64
