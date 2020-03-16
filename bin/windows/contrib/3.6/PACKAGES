@@ -7,7 +7,7 @@ Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 
 Package: dynmdl
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.5.0), regts, methods
 Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr, numDeriv,
            openxlsx, tictoc
@@ -17,15 +17,15 @@ License: GPL (>= 2)
 Archs: i386, x64
 
 Package: isismdl
-Version: 1.3.1
-Depends: regts
+Version: 1.4.0
+Depends: R (>= 3.5.0), regts
 Imports: methods, R6, readr, tools
 Suggests: testthat, knitr
 License: GPL-3
 Archs: i386, x64
 
 Package: regts
-Version: 0.9.0
+Version: 1.0.2
 Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr, testthat
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
@@ -33,10 +33,10 @@ License: GPL-3
 Archs: i386, x64
 
 Package: umfpackr
-Version: 0.5.0
+Version: 0.6.1
 Depends: methods, Matrix
 Imports: Rcpp
 LinkingTo: Rcpp
-Suggests: testthat, nleqslv
+Suggests: testthat, nleqslv, stringr, knitr
 License: GPL-3
 Archs: i386, x64
