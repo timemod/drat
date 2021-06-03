@@ -97,6 +97,17 @@ License: GPL-3
 MD5sum: 0a3121e338cb1c52caaaaa58bc2dd424
 NeedsCompilation: no
 
+Package: cbsots
+Version: 1.6.0
+Depends: R (>= 3.5.0), regts
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
+        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
+        stringdist, utils, stringr, stats
+Suggests: testthat, knitr, rmarkdown, R.rsp
+License: GPL-3
+MD5sum: 416632078f8b5a17acc43716d8e03c25
+NeedsCompilation: no
+
 Package: dynmdl
 Version: 0.3.0
 Depends: regts, methods
@@ -249,6 +260,17 @@ LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
 MD5sum: 9e1dd0a18c1d926260021b2522036caf
+NeedsCompilation: yes
+
+Package: dynmdl
+Version: 1.7.1
+Depends: R (>= 3.5.0), regts, methods
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
+        stringi, umfpackr, numDeriv, openxlsx, tictoc
+LinkingTo: Rcpp, BH, Rcereal
+Suggests: testthat, knitr, rmarkdown, caret, R.rsp
+License: GPL (>= 2)
+MD5sum: 10e450a706ce3522098b6df3b3c11de7
 NeedsCompilation: yes
 
 Package: isismdl
@@ -534,6 +556,17 @@ License: GPL-3
 MD5sum: cdf3a5a2fc39ab7e4f29ea9163a55dfb
 NeedsCompilation: yes
 
+Package: regts
+Version: 1.5.0
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
+        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
+        Hmisc, lubridate, R.rsp
+License: GPL-3
+MD5sum: 3fce225279249415d20ba8216013f5a8
+NeedsCompilation: yes
+
 Package: umfpackr
 Version: 0.1.0
 Depends: methods, Matrix
@@ -642,4 +675,14 @@ LinkingTo: Rcpp
 Suggests: testthat, nleqslv, stringr, knitr, R.rsp
 License: GPL-3
 MD5sum: 7fde073dd8a6f6477c8350b7d0f17554
+NeedsCompilation: yes
+
+Package: umfpackr
+Version: 0.8.0
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, nleqslv, stringr, knitr, R.rsp
+License: GPL-3
+MD5sum: 3e33700c5acf5a14d3026de3303de98a
 NeedsCompilation: yes
