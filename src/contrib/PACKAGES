@@ -381,6 +381,15 @@ License: GPL-3
 MD5sum: ab9ff48580d848f2e94fbf8696a26157
 NeedsCompilation: yes
 
+Package: isismdl
+Version: 2.0.0
+Depends: R (>= 3.5.0), regts
+Imports: methods, R6, readr, tools
+Suggests: testthat, knitr, R.rsp, rmarkdown
+License: GPL-3
+MD5sum: 6652360a86898223f9c5ab1fff91c709
+NeedsCompilation: yes
+
 Package: regts
 Version: 0.1
 Depends: xlsx
@@ -567,6 +576,17 @@ License: GPL-3
 MD5sum: 3fce225279249415d20ba8216013f5a8
 NeedsCompilation: yes
 
+Package: regts
+Version: 1.6.0
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
+        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
+        Hmisc, lubridate, R.rsp
+License: GPL-3
+MD5sum: 72dfcbb3cff0c1756ba8fa03f13d788a
+NeedsCompilation: yes
+
 Package: umfpackr
 Version: 0.1.0
 Depends: methods, Matrix
@@ -685,4 +705,14 @@ LinkingTo: Rcpp
 Suggests: testthat, nleqslv, stringr, knitr, R.rsp
 License: GPL-3
 MD5sum: 3e33700c5acf5a14d3026de3303de98a
+NeedsCompilation: yes
+
+Package: umfpackr
+Version: 0.8.1
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, nleqslv, stringr, knitr, R.rsp
+License: GPL-3
+MD5sum: 03d91d14189ae6b216cd3b3af6ebf58e
 NeedsCompilation: yes
