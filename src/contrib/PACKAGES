@@ -108,6 +108,17 @@ License: GPL-3
 MD5sum: 416632078f8b5a17acc43716d8e03c25
 NeedsCompilation: no
 
+Package: cbsots
+Version: 1.6.1
+Depends: R (>= 3.5.0), regts
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
+        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
+        stringdist, utils, stringr, stats
+Suggests: testthat, knitr, rmarkdown, R.rsp
+License: GPL-3
+MD5sum: 0207ef4be9bcc9b33943958bae9abc9f
+NeedsCompilation: no
+
 Package: dynmdl
 Version: 0.3.0
 Depends: regts, methods
@@ -390,6 +401,15 @@ License: GPL-3
 MD5sum: 6652360a86898223f9c5ab1fff91c709
 NeedsCompilation: yes
 
+Package: isismdl
+Version: 2.1.1
+Depends: R (>= 3.5.0), regts
+Imports: methods, R6, readr, tools
+Suggests: testthat, knitr, R.rsp, rmarkdown
+License: GPL-3
+MD5sum: 5011c3cdf79237b8fadb4698b74bbdfb
+NeedsCompilation: yes
+
 Package: regts
 Version: 0.1
 Depends: xlsx
@@ -585,6 +605,17 @@ Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
         Hmisc, lubridate, R.rsp
 License: GPL-3
 MD5sum: 72dfcbb3cff0c1756ba8fa03f13d788a
+NeedsCompilation: yes
+
+Package: regts
+Version: 1.8.0
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
+        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
+        Hmisc, lubridate, R.rsp
+License: GPL-3
+MD5sum: 267bbf81a620f28258819169d7bf6ed2
 NeedsCompilation: yes
 
 Package: umfpackr
