@@ -1,9 +1,8 @@
 Package: cbsots
 Version: 0.5
 Depends: regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        utils,
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny, shinyjqui (>= 0.2.9001),
+          htmlwidgets, jsonlite, shinyalert, utils,
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 9b98de67767f4774865e1333acb475e0
@@ -12,9 +11,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 0.7.0
 Depends: regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, xlsx, shiny, shinyjqui (>= 0.2.9001),
+          htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 9c8e97b17578ee2294e7a45a3fdd4799
@@ -23,9 +21,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 0.8
 Depends: regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny, shinyjqui (>=
+          0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 75597728cbecf8d67d7c702d3811fe3f
@@ -34,9 +31,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 0.9.0
 Depends: regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny, shinyjqui (>=
+          0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: aa9759b3f73ef3a3f8787d10d5bdc456
@@ -45,9 +41,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.0.0
 Depends: regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny, shinyjqui (>=
+          0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: a13b9498a7a7a17184dc3693af1750f5
@@ -56,9 +51,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.1.0
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, readxl, openxlsx, shiny, shinyjqui (>=
+          0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 277896859894ce9132e2944850a0c20e
@@ -67,9 +61,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.2.0
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui
-        (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist,
-        utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui (>= 0.2.9001),
+          htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 694cc946d724e892d560212d10bc0861
@@ -78,9 +71,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.2.1
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui
-        (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist,
-        utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx, shiny, shinyjqui (>= 0.2.9001),
+          htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 MD5sum: 2628eb5b03e7bbbd246d049290913cf2
@@ -89,9 +81,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.3.0
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
-        shinyjqui (>= 0.2.9001), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.2.9001), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr
 Suggests: testthat, knitr, rmarkdown, R.rsp
 License: GPL-3
 MD5sum: 0a3121e338cb1c52caaaaa58bc2dd424
@@ -100,9 +91,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.6.0
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
-        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr, stats
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.4.0), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr, stats
 Suggests: testthat, knitr, rmarkdown, R.rsp
 License: GPL-3
 MD5sum: 416632078f8b5a17acc43716d8e03c25
@@ -111,9 +101,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.6.1
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
-        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr, stats
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.4.0), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr, stats
 Suggests: testthat, knitr, rmarkdown, R.rsp
 License: GPL-3
 MD5sum: 0207ef4be9bcc9b33943958bae9abc9f
@@ -122,9 +111,8 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.7.1
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
-        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr, stats
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.4.0), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr, stats
 Suggests: testthat, knitr, rmarkdown, R.rsp
 License: GPL-3
 MD5sum: 75af948c3e2b1d84ca998a20c090c2cf
@@ -133,19 +121,28 @@ NeedsCompilation: no
 Package: cbsots
 Version: 1.7.2
 Depends: R (>= 3.5.0), regts
-Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
-        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
-        stringdist, utils, stringr, stats
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.4.0), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr, stats
 Suggests: testthat, knitr, rmarkdown, R.rsp
 License: GPL-3
 MD5sum: e5d8be8883e8ca92beb1388435b03c4c
 NeedsCompilation: no
 
+Package: cbsots
+Version: 1.8.0
+Depends: R (>= 3.5.0), regts
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui (>=
+          0.4.0), htmlwidgets, jsonlite, shinyalert, stringdist, utils, stringr, stats
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: 9072de9332d48c69369f8f9adc8c19c3
+NeedsCompilation: no
+
 Package: dynmdl
 Version: 0.3.0
 Depends: regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, readr
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
@@ -155,8 +152,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.4.0
 Depends: regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, readr
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
@@ -166,8 +163,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.5.0
 Depends: regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, readr
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
@@ -177,8 +174,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.7.0
 Depends: regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, readr, data.table
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, readr, data.table
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown
 License: GPL (>= 2)
@@ -188,8 +185,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.8.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, data.table
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, data.table
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -199,8 +196,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.8.1
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, data.table
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, data.table
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -210,8 +207,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.9.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, data.table, openxlsx
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, data.table, openxlsx
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -221,8 +218,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 0.9.1
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, data.table, openxlsx
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, data.table, openxlsx
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -232,8 +229,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.0.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -243,8 +240,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.1.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -254,8 +251,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.2.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -265,8 +262,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.3.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -276,8 +273,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.4.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -287,8 +284,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.5.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
@@ -298,8 +295,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.7.1
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret, R.rsp
 License: GPL (>= 2)
@@ -309,8 +306,8 @@ NeedsCompilation: yes
 Package: dynmdl
 Version: 1.8.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-        stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, umfpackr,
+          numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret, R.rsp
 License: GPL (>= 2)
@@ -467,8 +464,7 @@ Version: 0.2
 Depends: xlsx
 Imports: Rcpp, Hmisc, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg
 License: GPL-3
 MD5sum: 2c747f9732de145039c5daf53cad23ba
 NeedsCompilation: yes
@@ -478,8 +474,7 @@ Version: 0.4
 Depends: xlsx
 Imports: Rcpp, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg, Hmisc
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc
 License: GPL-3
 MD5sum: 88da8e81cb3652dc3ef5a3492df349f5
 NeedsCompilation: yes
@@ -489,8 +484,7 @@ Version: 0.5.0
 Depends: xlsx
 Imports: Rcpp, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg, Hmisc
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc
 License: GPL-3
 MD5sum: 0103764758e0988e7c107b1ef4d3487a
 NeedsCompilation: yes
@@ -500,173 +494,162 @@ Version: 0.5.1
 Depends: xlsx
 Imports: Rcpp, data.table, readxl, cellranger, tibble
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg, Hmisc
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc
 License: GPL-3
 MD5sum: 19f91b3d4edbdc6ef6221e9468fb3a6b
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.7.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries,
-        tempdisagg, Hmisc, lubridate
+Suggests: testthat, knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc,
+          lubridate
 License: GPL-3
 MD5sum: e910f2bada13ee98ec421f85ca93605b
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.8.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: b962336b2aaba340971bc3a0f50d36a7
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.8.1
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: 32db30098ea9193b0408957924942c58
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.8.2
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: 84aadc9ad266ed1f5052e3c87d7dbb21
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.8.3
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: c3fd6fe4e60aa5db0dea945f530d6c27
 NeedsCompilation: yes
 
 Package: regts
 Version: 0.9.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: 8c6c3c1db1eb956616df61c3aa35c658
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.0.2
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: af498f1f9cee4b5faaa6ef09a36e154d
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.1.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: d63f60a43ae39d664274b1f282f17484
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.2.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: 9fb1073c7a049269c9e82a25fedcdc46
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.3.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx, stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx, stringr,
+          tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate
 License: GPL-3
 MD5sum: 72123b1e49a71002c58922e5e36305f3
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.4.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4.2.2),
+          stringr, tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate, R.rsp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate,
+          R.rsp
 License: GPL-3
 MD5sum: cdf3a5a2fc39ab7e4f29ea9163a55dfb
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.5.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4.2.2),
+          stringr, tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate, R.rsp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate,
+          R.rsp
 License: GPL-3
 MD5sum: 3fce225279249415d20ba8216013f5a8
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.6.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4.2.2),
+          stringr, tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate, R.rsp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate,
+          R.rsp
 License: GPL-3
 MD5sum: 72dfcbb3cff0c1756ba8fa03f13d788a
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.8.0
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4.2.2),
+          stringr, tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate, R.rsp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate,
+          R.rsp
 License: GPL-3
 MD5sum: 267bbf81a620f28258819169d7bf6ed2
 NeedsCompilation: yes
 
 Package: regts
 Version: 1.8.1
-Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
-        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4.2.2),
+          stringr, tidyselect, rlang, testthat
 LinkingTo: Rcpp
-Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
-        Hmisc, lubridate, R.rsp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, Hmisc, lubridate,
+          R.rsp
 License: GPL-3
 MD5sum: bfb892e003d869a57a6dffec8ff52024
 NeedsCompilation: yes
