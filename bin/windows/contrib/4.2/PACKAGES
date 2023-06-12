@@ -35,11 +35,21 @@ Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2),
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
 
+Package: cbsots
+Version: 1.9.2
+Depends: R (>= 3.5.0), regts
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2),
+       shiny, shinyjqui (>= 0.4.0), htmlwidgets, jsonlite,
+       shinyalert, stringdist, utils, stringr, stats, shinybusy,
+       shinyjs
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+
 Package: dynmdl
 Version: 1.8.0
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-       stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn,
+       tools, stringi, umfpackr, numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret, R.rsp
 License: GPL (>= 2)
@@ -48,8 +58,8 @@ Archs: x64
 Package: dynmdl
 Version: 1.8.1
 Depends: R (>= 3.5.0), regts, methods
-Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
-       stringi, umfpackr, numDeriv, openxlsx, tictoc
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn,
+       tools, stringi, umfpackr, numDeriv, openxlsx, tictoc
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
