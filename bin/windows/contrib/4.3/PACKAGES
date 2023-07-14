@@ -1,0 +1,45 @@
+Package: cbsots
+Version: 1.9.2
+Depends: R (>= 3.5.0), regts
+Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny,
+        shinyjqui (>= 0.4.0), htmlwidgets, jsonlite, shinyalert,
+        stringdist, utils, stringr, stats, shinybusy, shinyjs
+Suggests: testthat, knitr, rmarkdown
+License: GPL-3
+
+Package: dynmdl
+Version: 1.8.1
+Depends: R (>= 3.5.0), regts, methods
+Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools,
+        stringi, umfpackr, numDeriv, openxlsx, tictoc
+LinkingTo: Rcpp, BH, Rcereal
+Suggests: testthat, knitr, rmarkdown, caret
+License: GPL (>= 2)
+Archs: x64
+
+Package: isismdl
+Version: 2.2.2
+Depends: R (>= 3.5.0), regts
+Imports: methods, R6, readr, tools, utils
+Suggests: testthat, knitr, R.rsp, rmarkdown
+License: GPL-3
+Archs: x64
+
+Package: regts
+Version: 1.8.1
+Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble,
+        openxlsx (>= 4.2.2), stringr, tidyselect, rlang, testthat
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg,
+        Hmisc, lubridate, R.rsp
+License: GPL-3
+Archs: x64
+
+Package: umfpackr
+Version: 0.8.1
+Depends: methods, Matrix
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat, nleqslv, stringr, knitr, R.rsp
+License: GPL-3
+Archs: x64
