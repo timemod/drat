@@ -5,8 +5,8 @@ Imports: cbsodataR (>= 0.2.5), data.table, openxlsx (>= 4.2.2), shiny, shinyjqui
            jsonlite, shinyalert, stringdist, utils, stringr, stats, shinybusy, shinyjs
 Suggests: testthat, knitr, rmarkdown
 License: GPL-3
-MD5sum: bfc4c8c7b2110ee5e62ea675900c5973
-NeedsCompilation: no
+Built: R 4.6.0; ; 2026-05-01 08:05:57 UTC; windows
+File: cbsots_2.2.0.zip
 
 Package: dynmdl
 Version: 1.9.1
@@ -16,8 +16,9 @@ Imports: Rcpp, nleqslv, Matrix, compiler, R6, geigen, gsubfn, tools, stringi, um
 LinkingTo: Rcpp, BH, Rcereal
 Suggests: testthat, knitr, rmarkdown, caret
 License: GPL (>= 2)
-MD5sum: ac084d1c13f3c2b86d329071b258100f
-NeedsCompilation: yes
+Archs: x64
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-05-01 08:05:58 UTC; windows
+File: dynmdl_1.9.1.zip
 
 Package: isismdl
 Version: 2.5.1
@@ -25,8 +26,9 @@ Depends: R (>= 4.1.0), regts
 Imports: R6, readr, methods, tools, utils, dplyr, rlang, igraph, nleqslv, tibble, tidyr, stringr, glue
 Suggests: testthat, knitr, R.rsp, rmarkdown
 License: GPL-3
-MD5sum: 74d4cbcff34c005a318ea54fc913543b
-NeedsCompilation: yes
+Archs: x64
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-06-16 08:15:25 UTC; windows
+File: isismdl_2.5.1.zip
 
 Package: regts
 Version: 2.3.1
@@ -36,8 +38,9 @@ Imports: Rcpp, data.table, readxl (>= 1.2.0), cellranger, tibble, openxlsx (>= 4
 LinkingTo: Rcpp
 Suggests: knitr, rmarkdown, zoo, xts, timeSeries, tseries, tempdisagg, labelled, lubridate
 License: GPL-3
-MD5sum: e156708fbd3f8ff5c4fd5d0fd6a09fc3
-NeedsCompilation: yes
+Archs: x64
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-06-16 08:14:09 UTC; windows
+File: regts_2.3.1.zip
 
 Package: umfpackr
 Version: 0.9.0
@@ -46,5 +49,6 @@ Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: testthat, nleqslv, stringr, knitr
 License: GPL-3
-MD5sum: 4e34979fb977c2dd60b0c78ab3b3b0e6
-NeedsCompilation: yes
+Archs: x64
+Built: R 4.6.0; x86_64-w64-mingw32; 2026-06-15 20:10:51 UTC; windows
+File: umfpackr_0.9.0.zip
